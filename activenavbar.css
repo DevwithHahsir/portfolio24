@@ -1,0 +1,10 @@
+/* Navbar Styling */
+
+ 
+  /* Active class styling */
+  .navbar .nav-link.active {
+    color:#FFF8E8 ;
+    background-color:#2F3645;
+   
+  }
+  

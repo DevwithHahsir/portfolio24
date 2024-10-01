@@ -1,0 +1,48 @@
+.workflow-container
+{
+    height: 100%;
+    color:antiquewhite;
+    
+    background-color: #2F3645;
+}
+
+.workflow-container .heading-text
+{
+    
+    font-size: 8vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-heading-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    height: 100%;
+}
+
+ol li
+{
+    font-size: larger;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 0.3rem;
+    padding: 0.2rem;
+}
+
+@media (max-width:1025px){
+    .work-text .heading-text
+    {
+        display:flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+

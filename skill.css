@@ -1,0 +1,36 @@
+.skill-container
+{
+    background-color: #FFF8E8;
+    
+ 
+   margin: 0px !important;
+}
+.skill-container h1
+{
+    display: flex;
+    font-size: 5vw;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.svg-icons
+{
+
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid;
+    border-style:dashed; */
+   
+}
+.carousel-item svg
+{
+    height: 12rem;
+    width: 12rem;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+

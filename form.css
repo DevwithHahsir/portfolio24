@@ -1,0 +1,187 @@
+.contact-container
+{
+  
+    height: 100vh;
+    background-color: #FFF8E8;
+
+}
+
+.contact-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-form h2
+{
+    font-size: 5vw;
+    /* border: 1px solid; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form
+{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+input
+{
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 7px;
+    outline: none;
+    /* border: none; */
+    border: 1px solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+textarea
+{
+    outline: none;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+.contact1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input::placeholder
+{
+    /* color: black; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+select
+{
+       border: 1px solid;
+    /* border: none; */
+    padding: 0.7rem;
+    border-radius: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.sub-btn 
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #ffd277;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+  
+  .Btn::before {
+    position: absolute;
+    content: "SUBMITT";
+    color: #ffd277;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+  }
+  
+  .Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:active {
+    transform: scale(0.95);
+  }
+
+
+@media (max-width:1000px) {
+
+    form input
+    {
+        width: 60%;
+
+    }
+    form h2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+      select
+      {
+        width: 60%;
+      }
+
+    .contact2 input
+    {
+        width: 60%;
+        
+    }
+
+    .contact2 textarea
+    {
+        /* width: 50%; */
+
+    }
+
+    .sub-btn
+    {
+        display: flex;
+        justify-content: center;
+    }
+    
+}

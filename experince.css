@@ -1,0 +1,53 @@
+/*****EXPERIENCE SECTION*****/
+
+.experience-container
+{
+	
+	height:150vh;
+    background-color: #FFF8E8;
+	
+}
+.main-section
+{
+	margin-top: 3rem;
+	height: 100%;
+	
+}
+
+.edu-exp {
+	/* margin-top: 4rem; */
+	padding: 10px 0px;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	padding-left: 10px;
+}
+.experience-list {
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+   background-color: #2F3645;
+	margin-bottom: 20px;
+}
+.experience-content {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.experience-content h2 {
+
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+    color: white;
+}
+.experience-content h3 {
+	color: #ffbf35;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.experience-content p {
+	font-size: 15px;
+    color: white;
+}

@@ -14,6 +14,46 @@ footer {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.FtextContainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FText
+{
+  margin-left: 0.9rem;
+}
+
+.FText {
+  display: inline-block;
+  border-right: 5px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  /* border: 1px solid; */
+  /* width: 50%; Can be 100% or another percentage */
+  animation: typing 2s steps(30, end), cursor 0.7s step-end infinite; /* Typing animation */
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
 
 
 /* githubbbbbbbbbbbbbbbbbbb */

@@ -46,20 +46,25 @@ ul {
     border-radius: 20px; */
     /* border: 1px solid; */
     padding: 0px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
-.FstName
+.container-fluid a .FstName
 {
     background-color: #2F3645;
     padding: 0.5rem;
     color: #FFF8E8;
+    border-radius: 5px 0px 0px 5px;
     /* border: 1px solid; */
     
 }
-.SName
+.container-fluid a  .SName
 {
-
-    padding: 0.5rem;
+    
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 0.45rem;
+    border-radius: 0px 5px 5px 0px;
     background-color: #FFF8E8;
     color: #2F3645;
 

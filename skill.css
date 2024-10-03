@@ -2,6 +2,7 @@
 {
     background-color: #FFF8E8;
     
+    
  
    margin: 0px !important;
 }
@@ -13,6 +14,11 @@
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
+}
+
+.FstName
+{
+    border-radius: 5px;
 }
 
 .svg-icons

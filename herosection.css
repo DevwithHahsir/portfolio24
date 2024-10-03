@@ -12,7 +12,8 @@ html {
 .herosection {
 
 
-    background-color: #FFF8E8;
+    background-color: #fff8e8;
+    backdrop-filter: blur(5px);
     position: sticky;
     top: 0;
     z-index: 1020; 
@@ -38,11 +39,30 @@ ul {
 
 }
 
-.container-fluid a:hover {
-    background-color: #2F3645;
+.container-fluid a {
+    /* background-color: #2F3645;
     color: #FFF8E8;
     padding: 0.3rem;
-    border-radius: 20px;
+    border-radius: 20px; */
+    /* border: 1px solid; */
+    padding: 0px;
+    border: 1px solid;
+}
+.FstName
+{
+    background-color: #2F3645;
+    padding: 0.5rem;
+    color: #FFF8E8;
+    /* border: 1px solid; */
+    
+}
+.SName
+{
+
+    padding: 0.5rem;
+    background-color: #FFF8E8;
+    color: #2F3645;
+
 }
 
 .nav-item a {
